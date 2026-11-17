@@ -56,29 +56,6 @@ archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.a
 
 
 # ==========================================
-# GOOGLE PHOTOS - DE-VANCED
-# ==========================================
-
-[GooglePhotos]
-
-enabled = true
-app-name = "Google Photos"
-pkg-name = "com.google.android.apps.photos"
-
-patches-source = "RookieEnough/De-Vanced"
-rv-brand = "DeVanced"
-
-build-mode = "apk"
-arch = "arm64-v8a"
-version = "auto"
-
-enable-update-checks = false
-
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.photos"
-
-
-# ==========================================
 # REDDIT - MORPHE
 # ==========================================
 
@@ -114,8 +91,90 @@ rv-brand = "Piko"
 
 build-mode = "apk"
 arch = "arm64-v8a"
+dpi = "480-640dpi"
 version = "auto"
 
 enable-update-checks = false
 
 apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter/"
+
+# ==========================================
+# PROTON VPN
+# ==========================================
+
+[ProtonVPN]
+enabled = true
+app-name = "Proton VPN"
+pkg-name = "ch.protonvpn.android"
+
+patches-source = "hxreborn/morphe-patches"
+
+build-mode = "apk"
+arch = "arm64-v8a"
+version = "auto"
+dpi = "120-640dpi"
+
+enable-update-checks = false
+
+apkmirror-dlurl = "https://www.apkmirror.com/apk/proton-technologies-ag/protonvpn-secure-and-free-vpn/"
+
+
+# ==========================================
+# GOOGLE PHOTOS
+# ==========================================
+
+[GooglePhotos]
+enabled = true
+app-name = "Google Photos"
+pkg-name = "com.google.android.apps.photos"
+
+patches-source = "bearinmindcat/morphe-patches"
+
+build-mode = "apk"
+arch = "arm64-v8a"
+version = "auto"
+
+enable-update-checks = false
+
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
+
+
+# ==========================================
+# BOTIM
+# ==========================================
+
+[Botim]
+enabled = true
+app-name = "botim"
+pkg-name = "im.thebot.messenger"
+
+patches-source = "hxreborn/morphe-patches"
+
+build-mode = "apk"
+arch = "arm64-v8a"
+version = "auto"
+dpi = "120-640dpi"
+
+enable-update-checks = false
+
+apkmirror-dlurl = "https://www.apkmirror.com/apk/algento-cloud-computing-limited/botim-video-and-voice-call/"
+
+
+# ==========================================
+# TRUECALLER
+# ==========================================
+
+[Truecaller]
+enabled = true
+app-name = "Truecaller"
+pkg-name = "com.truecaller"
+
+patches-source = "heval99/Heval-Morphe-Patches"
+
+build-mode = "apk"
+arch = "arm64-v8a"
+version = "auto"
+
+enable-update-checks = false
+
+apkmirror-dlurl = "https://www.apkmirror.com/apk/true-software-scandinavia-ab/truecaller-caller-id-block/"
