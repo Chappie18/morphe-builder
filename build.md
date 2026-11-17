@@ -3,6 +3,7 @@ GooglePhotos: 8.1.0.1016919706
 Music: 9.30.53  
 ProtonVPN: 5.21.9.0  
 Reddit: 2026.40.0  
+Truecaller: 26.44.6  
 X: 12.41.0-prod.01  
 YouTube: 21.30.216  
 
