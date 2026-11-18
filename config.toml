@@ -86,7 +86,7 @@ enabled = true
 app-name = "X"
 pkg-name = "com.twitter.android"
 
-patches-source = "crimera/piko-newx"
+patches-source = "crimera/piko"
 rv-brand = "Piko"
 
 build-mode = "apk"
